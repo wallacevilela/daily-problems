@@ -22,10 +22,6 @@ public class Problem1 {
                 count++;
             }
 
-            ret.stream().forEach(i -> System.out.print(i + ", "));
-            System.out.println("Sum: " + sum);
-            System.out.println("----------");
-
             startPosition++;
         }
         return ret.stream().mapToInt(Integer::valueOf).toArray();
