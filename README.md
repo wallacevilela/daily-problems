@@ -1,9 +1,17 @@
-# Problems List
+# Algorithms Challenges
+
+Here are some challenges and how I solved it, using:
+
+* Java 11
+* JUnit 4
+
+---
+## Problems List
 
 ### Problem 1:
 
-You are given an array of integers, and an integer K.
-Return the subarray which sums to K.
+You are given an array of integers, and an integer K.</br>
+Return the subarray which sums to K.</br>
 You can assume that a solution will always exist.
 
     def find_continuous_k(list, k):
