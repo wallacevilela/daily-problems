@@ -5,7 +5,6 @@ Here are some challenges and how I solved it, using:
 * Java 11
 * JUnit 4
 
----
 ## Problems List
 
 ### Problem 1:
@@ -19,3 +18,15 @@ You can assume that a solution will always exist.
     
     print find_continuous_k([1, 3, 2, 5, 7, 2], 14)
     # [2, 5, 7]
+
+
+### Problem 2:
+
+
+Given a string, find the length of the longest substring without repeating characters.
+
+    def lengthOfLongestSubstring(self, s):
+    # Fill this in.
+    
+    print Solution().lengthOfLongestSubstring('abrkaabcdefghijjxxx')
+    # 10
